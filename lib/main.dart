@@ -1,6 +1,6 @@
-import 'package:chat_app/screens/HomeScreen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:notflix/screens/MyHome.dart';
 
 void main() => runApp(MyApp());
 
@@ -9,13 +9,9 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     SystemChrome.setPreferredOrientations([DeviceOrientation.portraitUp]);
     return MaterialApp(
-      title: 'Chattr',
       debugShowCheckedModeBanner: false,
-      theme: ThemeData(
-        primaryColor: Colors.red,
-        accentColor: Color(0xFFFEF9EB),
-      ),
-      home: HomeScreen(),
+      title: 'Notflix',
+      home: MyHome(),
     );
   }
 }

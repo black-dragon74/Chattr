@@ -1,4 +1,4 @@
-# chat_app
+# notflix
 
 A new Flutter project.
 
