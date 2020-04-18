@@ -1,4 +1,4 @@
-# chat_app
+# vpn_app
 
 A new Flutter project.
 
